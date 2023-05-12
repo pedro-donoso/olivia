@@ -1,0 +1,24 @@
+body {
+  font-family: "Raleway", sans-serif;
+}
+/* Hero Section */
+#Hero-Section {
+  background-image: url("../image/bg-hero.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* para que se vea rostro */
+  background-position: left;
+}
+/* Contacto */
+
+
+@media (max-width: 768px) {
+  #Contacto form label {
+    font-weight: 400;
+  }
+
+  .navbar-brand{
+    width: 100px;
+  }
+
+}
